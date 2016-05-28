@@ -1,18 +1,19 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Anuroop.master.cs" Inherits="COMP2007_S2016_Lesson3.Anuroop" %>
-
+<%@ Register Src="~/User_Control/Navbar.ascx" TagName="Navbar" TagPrefix="bs3" %>
 <!DOCTYPE html>
 
-<html xmlns="en">
+<html lang="en">
 <head runat="server">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <!-- CSS Section -->
+        <link href="Content/App.css" rel="stylesheet" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
-    <link href="Content/app.css" rel="stylesheet" />
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -29,7 +30,7 @@
     <!-- JavaScript -->
     <script src="Scripts/jquery-2.2.3.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
-    <script src="Scripts/app.js"></script>
+    <script src="Scripts/App.js"></script>
     
 </body>
 </html>
